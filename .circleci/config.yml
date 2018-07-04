@@ -13,5 +13,5 @@ jobs:
     steps:
     - checkout
     - run: export PATH='~/KiiCorp/JavascriptStorageSDK/scripts/:$PATH' >> $BASH_ENV
-    - run: bash testScript.sh
+    - run: source testScript.sh
 
