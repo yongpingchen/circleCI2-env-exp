@@ -1,1 +1,1 @@
-sh printHello.sh
+source printHello.sh
