@@ -12,6 +12,6 @@ jobs:
     <<: *container_config
     steps:
     - checkout
-    - run: export PATH='~/KiiCorp/JavascriptStorageSDK/scripts/:$PATH' >> $BASH_ENV
-    - run: source testScript.sh
+    - run: echo 'export PATH=~/KiiCorp/JavascriptStorageSDK/scripts/:$PATH' >> $BASH_ENV
+    - run: bash testScript.sh
 
